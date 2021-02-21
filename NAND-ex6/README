@@ -1,0 +1,26 @@
+michaelbere, daniel.brown1
+===============================================================================
+Michael Berelejis, ID 203527973, michael.berelejis@mail.huji.ac.il
+Daniel Brown, ID 311340723, daniel.brown1@mail.huji.ac.il
+===============================================================================
+
+                           Project 6 - Hack Assembler
+                           --------------------------
+  
+
+Submitted Files
+---------------
+README - description of the project
+Makefile - make command will make assembler command possible
+Assembler.sh - runs the python script on the intended folder/file
+Main.py - uses other files to execute the Assembler process in the right sequence
+file_parser.py - manages the directory/file parsing (reading/writing/extracting a
+		list of files from a directory)
+first_pass.py - cleans comments and labels and generates a symbol table full of 
+		predefined symbols joined with the label symbols created by this pass
+second_pass.py - recieves a clean code file from first_pass and translates each instruction
+		to its binary equivilant along with variable initialization in the
+		symbol table (when needed)
+regex_patterns.py - holds the regex patterns we used to verify the code lines
+conversion_tables.py - hold the conversion tables used to convert A/C instructions
+		to the binary form
